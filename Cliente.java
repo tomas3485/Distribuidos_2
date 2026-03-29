@@ -74,5 +74,6 @@ public class Cliente {
             }
 
         } while (eleccion != -1);
+        sc.close(); //cierro el scanner
     }
-}
+} 
